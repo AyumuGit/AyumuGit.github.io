@@ -48,3 +48,6 @@ cat = 5 + "5"; // String concatenation operator
 console.log(cat); // Different Datatypes, easier to convert number to string, now reads as 55 
 
 console.log(cat + "oqiuwoihfnonvhfqoihefo");
+
+var script = "All outputs above are from the console.log function, producing results discussed in the second week of class!";
+console.log(script);
