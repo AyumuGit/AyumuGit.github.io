@@ -1,0 +1,50 @@
+body {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+    font-family: "Tagesschrift-Regular.ttf";
+}
+/* https://www.w3schools.com/css/css3_fonts.asp */
+
+@font-face {
+    font-family: customFont;
+    src: url(Tagesschrift-Regular.ttf);
+}
+
+.pressOne{
+    position: absolute;
+    text-align: left;
+    left: 20px;
+    top: 10px;
+    width: 100%;
+    font-size: 20px;
+    font-family: customFont;
+    color: oldlace;
+    text-shadow: 2px 3px grey;
+}
+
+.pressTwo{
+    position: absolute;
+    text-align: left;
+    left: 20px;
+    top: 35px;
+    width: 100%;
+    font-size: 20px;
+    font-family: customFont;
+    color: oldlace;
+    text-shadow: 2px 3px grey;
+}
+
+.pressThree{
+    position: absolute;
+    text-align: left;
+    left: 20px;
+    top: 60px;
+    width: 100%;
+    font-size: 20px;
+    font-family: customFont;
+    color: oldlace;
+    text-shadow: 2px 3px grey;
+}
